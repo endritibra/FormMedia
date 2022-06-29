@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rubik+Moonrocks&display=swap');
+
+.container{
+    display: flex;
+    flex-direction: row;
+  margin: auto;
+  width: 1000px;
+}
+
+
+.firstpart{
+    position: relative;
+    height: 680px;
+    width: 450px;
+    background-color: red;
+    border-radius: 4px;
+
+}
+
+img{
+ height: 680px;
+ width: 450px;
+ background-position: center;
+ border-radius: 4px;
+
+}
+
+
+
+.centered {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    width: 100%;
+    color: white;
+    text-align: center;
+    height: 100px;
+    background: rgba(62, 61, 61, 0.9);
+    border-radius: 3px;
+    font-family: 'Rubik Moonrocks', cursive;
+
+  }
+.texti{
+    font-family: 'Rubik Moonrocks', cursive;
+    letter-spacing: 30px;
+    
+}
+p{
+    opacity: 1.0;
+    font-family:'Roboto',serif;
+    letter-spacing: 12px;
+    font-size: 30px;
+  }
+
+  .secondpart{
+    background-color: rgb(16, 123, 217);
+    height: 700px;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+
+
+    
+}
+
+#njo{
+    font-size: 16px;
+    font-family:'Roboto',serif;
+
+    letter-spacing:3px ;
+}
+.secondfirst{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 200px;
+    padding-left: 24px;
+    font-family: 'Roboto';
+}
+.secondsecond{
+    background-color: white;
+    height: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input{
+    width: 83%;
+    height:15px;
+    padding: 5px;
+}
+.everyinput{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 30px;
+}
+.forma1{
+    display: flex;
+    flex-direction: row;
+}
+.forma2{
+    display: flex;
+    flex-direction: row;
+}
+.forma3{
+    display: flex;
+    flex-direction: row;
+}
+.secondsecond h2{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.secondthird{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 30px;
+}
+button{
+    margin-left: 90px;
+    width: 120px;
+    border: 0;
+    border-radius: 5px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    padding: 10px;
+   cursor: pointer;
+}
+.login{
+    font-size: 14px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing:2px;
+}
+.logini{
+    color:rgb(234, 234, 234);
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+
+@media only screen and (max-width: 920px) {
+   .container{
+    width: 400px;
+   }
+   .firstpart{
+    width: 200px;
+    height:800px;
+   }
+   .secondpart{
+    width: 200px;
+    height: 1000px;
+   }
+   img{
+    width: 200px;
+    height: 1000px;
+   }
+   .secondpart{
+    display: flex;
+    flex-direction: column;
+   }
+   .secondfirst{
+    display: flex;
+    flex-direction: column;
+   }
+   .secondsecond{
+    
+    height: 550px;
+   }
+   .secondthird{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+   }
+  
+   .forma1{
+    display: flex;
+    flex-direction: column;
+   }
+   .forma2{
+    display: flex;
+    flex-direction: column;
+   }
+   .forma3{
+    display: flex;
+    flex-direction: column;
+   }button{
+    margin: 20px;
+   }
+  }
+
+  input[type=text]:focus {
+
+    background-color:rgb(16, 123, 217);
+    color:white;
+  }
+
