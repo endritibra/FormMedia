@@ -153,6 +153,7 @@ button{
 @media only screen and (max-width: 920px) {
    .container{
     width: 400px;
+       
    }
    .firstpart{
     width: 200px;
@@ -161,6 +162,7 @@ button{
    .secondpart{
     width: 200px;
     height: 1000px;
+       font-size:10px;
    }
    img{
     width: 200px;
